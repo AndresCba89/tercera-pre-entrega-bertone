@@ -21,15 +21,15 @@ http://127.0.0.1:8000/
 1. Pagina de inicio - Buscar usuarios por dni:
 - URL /inicio/ o haciendo click en "inicio" en la barra de navegacion
 - Descripcion: Es la pagina principal del proyecto donde se visualiza el nombre del centro medico y debajo se puede buscar los usuarios registrados por su dni.
-En la parte superior derecha se encuetras los accesos a "Usuarios", "Derivantes","Pacientes", "Analisis"
+En la parte superior derecha se encuetra los accesos a "Usuarios", "Derivantes","Pacientes", "Analisis"
 
 2. Usuarios:
 - URL /us_form/ o haciendo click en "Usuarios" en la parte superior derecha.
-- Descripcion: En esta pagian se realiza el regsitro de los usuarios a sistema del servicio de salud. Donde debe registrar un "nombre" y su dni. Debe presinar el boton "Enviar".
+- Descripcion: En esta pagina se realiza el regsitro de los usuarios a sistema del servicio de salud. Donde debe registrar un "nombre" y su dni. Debe presinar el boton "Enviar".
 
 3. Registro Derivantes:
 - URL /dev_form/ o haciendo click en "Derivantes" en la parte superior derecha.
-- Descripcion: En esta seccion se realiza el regsitro del derivante, lo que seria a que institucion de saslud pertenece el usuario principal solcitante del servicio de analisis o estudio. Se debe registrar con el nombre de la institucion, apellido email y profesion. Luego de completar los campos presione Enviar
+- Descripcion: En esta seccion se realiza el regsitro del derivante, lo que seria a que institucion de sasud pertenece el usuario principal solcitante del servicio de analisis o estudio. Se debe registrar con el nombre de la institucion, apellido, email y profesion. Luego de completar los campos presione Enviar
 
 4. Pacientes:
 - URL /pte_form/ O haciendo click en "Pacientes" en la parte superior derecha.
@@ -38,4 +38,4 @@ En la parte superior derecha se encuetras los accesos a "Usuarios", "Derivantes"
 
 5. Registro Analisis:
 - URL /an_form/ o haciendo click en "Analisis" en la parte superior derecha.
-- Descripcion: Aca soliciata el tipo de analisis o estudio medico que desea solicitar al paciente que el derivante registro en el paso anterior. Coloca el nombre y presione "Enviar".
+- Descripcion: Aca solicita el tipo de analisis o estudio medico que desea realizar al paciente que el derivante registro en el paso anterior. Coloca el nombre y presione "Enviar".
