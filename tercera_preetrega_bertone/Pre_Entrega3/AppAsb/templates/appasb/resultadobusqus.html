@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    {% extends "appasb/index.html" %}
+    
+    {% load static %}
+    
+    {% block ... %}
+    <p>Estamos buscando el: {{ dni }}</p>
+
+{% if nombre %}
+<ul>
+{% for dni in nombre %}
+    <li>{{ dni.nombre }}</li>
+    <li>{{ dni.dni}}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endblock %}
+
+</body>
+</html>
