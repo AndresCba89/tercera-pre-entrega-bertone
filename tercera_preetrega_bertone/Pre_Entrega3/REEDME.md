@@ -4,7 +4,7 @@ El proyecto de web incluye las posibilidad para registrar ususurio, pacientes, d
 
 # Pasos para ejecutar:
 1. Clona el repositorio en la terminal de tu maquina: 
-git clone 
+git clone https://github.com/AndresCba89/tercera-pre-entrega-bertone.git
 
 
 2. Activa el entorno virtual: 
